@@ -1,0 +1,59 @@
+div#aktualnosc {
+	font-size: 20px;
+	width: 98%;
+	padding: 0 1%;
+}
+hr {
+	position: relative;
+	left: 20%;
+	margin: 10px 0;
+	width: 60%;
+}
+a{
+	color: #00cc00;
+	text-decoration: underline;
+	}
+div.wiecej {
+font-size: 180%;
+	font-weight: bold; 
+	font-style: italic;
+    text-align: right; 
+    color: #0000FF; 
+}
+div.newsTytul {
+	font-size: 125%;
+	font-weight: bold;
+	font-style: italic;
+	background-color: #00cc00;
+    border-radius: 20px;
+	margin: 10px 0;
+    height: 30px;
+    line-height: 30px;
+    color: red;
+	text-align: center;
+}
+div.newsTresc {
+    text-align:justify;
+}
+div.newsAutor {
+	font-size: 90%;
+	text-align: right;
+    color: red;
+    font-weight: bold;
+}
+div.newsData {
+	font-size: 90%;
+	text-decoration: underline;
+    color: blue;
+	text-align: right;
+	font-style: italic;
+	font-weight: bold;
+}
+div.newsBox{
+	min-height: 200px;
+	text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 530px) {
+    
+}

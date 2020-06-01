@@ -1,0 +1,12 @@
+ErrorDocument 404 http://localhost/wersja2v3/404
+
+RewriteEngine on
+RewriteRule gospodarstwo-ogrodnicze test.php
+RewriteRule pelargonia pelargonia.php
+RewriteRule aktualności aktual.php
+RewriteRule kontakt kontakt.php
+RewriteRule kwiaty-wiszace wiszace.php
+RewriteRule o-nas onas.php
+RewriteRule cennik cennik.php
+RewriteRule zamowienia zamów.php
+RewriteRule 404 error/page_not_found.html
